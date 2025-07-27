@@ -1,0 +1,35 @@
+{
+    "name": "petal length (cm) <= 2.45",
+    "children": [
+        {
+            "name": "Class: setosa"
+        },
+        {
+            "name": "petal width (cm) <= 1.75",
+            "children": [
+                {
+                    "name": "petal length (cm) <= 4.95",
+                    "children": [
+                        {
+                            "name": "Class: versicolor"
+                        },
+                        {
+                            "name": "Class: virginica"
+                        }
+                    ]
+                },
+                {
+                    "name": "petal length (cm) <= 4.85",
+                    "children": [
+                        {
+                            "name": "Class: virginica"
+                        },
+                        {
+                            "name": "Class: virginica"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
