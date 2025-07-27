@@ -15,7 +15,7 @@ function xmldb_gradereport_rubrics_upgrade($oldversion) {
     $dbman = $DB->get_manager();
 
     // i hope this works, if version less than this, create the table 
-    if ($oldversion < 2023041708) {
+    if ($oldversion < 2025072500) {
         //table rubric_grade_edits.
         $table = new xmldb_table('rubric_grade_edits');
 

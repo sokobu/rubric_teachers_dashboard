@@ -24,6 +24,6 @@ defined('MOODLE_INTERNAL') || die();
 
 $plugin->component = 'gradereport_rubrics';
 $plugin->release = '1.401.02';
-$plugin->version = 2023041708; //this had to be bumped up during the teachers dashboard development in order to create a new table
+$plugin->version = 2025072500; //this had to be bumped up during the teachers dashboard development in order to create a new table
 $plugin->requires  = 2022112800; // Moodle 4.1 and higher.
 $plugin->maturity  = MATURITY_STABLE;
